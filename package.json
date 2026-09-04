@@ -1,0 +1,15 @@
+{
+  "name": "anclora-job-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Toni Ballesteros personal job-search portfolio. Static HTML/CSS/JS, no build tooling required to run.",
+  "scripts": {
+    "lint": "node scripts/lint.mjs",
+    "test": "node scripts/test.mjs",
+    "typecheck": "node scripts/typecheck.mjs",
+    "build": "node scripts/build.mjs",
+    "a11y": "node scripts/a11y-check.mjs",
+    "secret-scan": "node scripts/secret-scan.mjs",
+    "validate": "npm run lint && npm run test && npm run typecheck && npm run build && npm run a11y && npm run secret-scan"
+  }
+}
