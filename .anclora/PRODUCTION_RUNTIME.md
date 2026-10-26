@@ -64,7 +64,7 @@ manifest override generic agent defaults or home-directory agent policies.
 
 APPLICATION_NAME=Anclora Job Portfolio
 REPOSITORY=anclora-job-portfolio
-APPLICATION_TYPE=fullstack_or_application
+APPLICATION_TYPE=frontend
 FRAMEWORK=Node.js
 
 ## 2. Runtime Topology
